@@ -36,10 +36,29 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   font_awesome_flutter: ^10.4.0
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^2.2.19
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/splash.jpg
+  # branding: assets/branding-acceptance.png
+  # color_dark: "#121212"
+  # image_dark: assets/splash.jpg
+  # branding_dark: assets/branding-acceptance.png
+
+  android_12:
+    image: assets/splash.jpg
+    icon_background_color: "#ffffff"
+    # image_dark: assets/splash.jpg
+    # icon_background_color_dark: "#121212"
+
+  web: false
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
