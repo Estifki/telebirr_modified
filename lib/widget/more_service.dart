@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class MoreServicesWidget extends StatelessWidget {
   final String title;
   final dynamic icon;
@@ -9,6 +8,7 @@ class MoreServicesWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      contentPadding: EdgeInsets.only(left: 16.0, right: 16.0),
       leading: icon,
       title: Text(
         title,

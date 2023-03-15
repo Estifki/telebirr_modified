@@ -96,32 +96,29 @@ class _HomeScreenState extends State<HomeScreen> {
               //
               ,
               SizedBox(height: 15),
-              Padding(
-                padding: const EdgeInsets.only(left: 10.0, right: 10),
-                child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      PaymentWidget(
-                        title: "Send",
-                        icon: Icons.keyboard_double_arrow_up_outlined,
-                      ),
-                      PaymentWidget(
-                        title: "Recieve",
-                        icon: Icons.keyboard_double_arrow_down_outlined,
-                      ),
-                      PaymentWidget(
-                        title: "Scan QR",
-                        icon: Icons.qr_code,
-                      ),
-                    ]),
-              ),
+              Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    PaymentWidget(
+                      title: "Send",
+                      icon: Icons.keyboard_double_arrow_up_outlined,
+                    ),
+                    PaymentWidget(
+                      title: "Recieve",
+                      icon: Icons.keyboard_double_arrow_down_outlined,
+                    ),
+                    PaymentWidget(
+                      title: "Scan QR",
+                      icon: Icons.qr_code,
+                    ),
+                  ]),
               //
               //More Services
               //
               SizedBox(height: 30),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
+                padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: Text(
                   "More Services",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
