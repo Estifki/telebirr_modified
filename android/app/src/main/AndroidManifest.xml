@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.telebirr_modified">
    <application
-        android:label="telebirr_modified"
+        android:label="Telebirr"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
